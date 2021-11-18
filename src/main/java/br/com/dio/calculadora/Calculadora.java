@@ -25,19 +25,21 @@ public class Calculadora {
         System.out.println("dividir: " + dividir);
 
 
-
     }
 
-    public static int somar(int a, int b){
+    public static int somar(int a, int b) {
         return a + b;
     }
-    public static int subtrair(int a, int b){
+
+    public static int subtrair(int a, int b) {
         return a - b;
     }
-    public static double dividir(float a,float b){
+
+    public static double dividir(float a, float b) {
         return a / b;
     }
-    public static int multiplicar(int a, int b){
+
+    public static int multiplicar(int a, int b) {
         return a * b;
     }
 
